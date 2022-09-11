@@ -18,7 +18,7 @@ public class Main {
 
         System.out.println("Домашнее задание 2");
 
-                int i = 1;
+        int i = 1;
         while (i <= 10) {
             System.out.print(i + " ");
             i++;
@@ -62,7 +62,7 @@ public class Main {
         System.out.println();
         System.out.println("Задание 2");
 
-        i=1;
+        i = 1;
         int money1 = 15000;
         while (money1 <= 12_000_000) {
             money1 = money1 + money1 / 100 * monthlyPercent;
@@ -82,14 +82,15 @@ public class Main {
 
         while (yearofGaining <= 9) {
             System.out.println("Год " + yearofGaining);
-            m=1;
+            m = 1;
             while (m <= 12) {
                 money2 = money2 + money2 / 100 * monthlyPercent;
                 m++;
                 if (m % 6 == 0) {
-                    System.out.println("Месяц " + m + ", сумма накоплений " + money2);}
+                    System.out.println("Месяц " + m + ", сумма накоплений " + money2);
+                }
             }
-                yearofGaining++;
+            yearofGaining++;
 
         }
 
@@ -100,7 +101,7 @@ public class Main {
 
         int day = 1;
         int friday = 3;
-        for (day =1; day <= 31; day++) {
+        for (day = 1; day <= 31; day++) {
             if (day % friday == 0) {
                 System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет.");
                 friday = friday + 7;
@@ -121,7 +122,8 @@ public class Main {
         int currentYear = 0;
         for (currentYear = 0; currentYear <= lastYear; currentYear++) {
             if (currentYear >= firstYear && currentYear % 79 == 0) {
-                System.out.println(currentYear);}
+                System.out.println(currentYear);
+            }
         }
         System.out.println("Конец задания 1");
         System.out.println();
@@ -136,7 +138,7 @@ public class Main {
         System.out.println("Конец задания 2");
 
 
-        }
-
-
     }
+
+
+}
